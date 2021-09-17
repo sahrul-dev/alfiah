@@ -1,0 +1,72 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	user-select: none;
+}
+body{
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/liana-mikah-4RTAF3Z-0zM-unsplash (1).jpg');
+background-size: cover;
+height: 100vh;
+background-position: center;
+background-attachment: fixed;
+}
+
+.wrapper{
+	text-align: center;
+	max-width: 1100px;
+	font-family: 'Quicksand', sans-serif;
+}
+.wrapper h1{
+	font-family: 'Hachi Maru Pop', cursive;
+	color: #ECB0AF;
+}
+.wrapper .avatar-image{
+	margin-top: 2rem;
+}
+.wrapper .avatar-image img{
+	max-width: 120px;
+	border-radius: 100px;
+}
+
+.wrapper .welcome-text{
+	margin-top: 1rem;
+	color: #f2f2f2;
+	font-family: 'Quicksand', sans-serif;
+
+}
+a{
+	-webkit-tap-highlight-color: transparent;
+	text-decoration: none;
+}
+img{
+	-webkit-tap-highlight-color: transparent;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+}
+.list-column-link .item-link{
+	padding: 15px;
+	max-width: 700px;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+	transition: 0.2s ease;
+	background:  #ECB0AF;
+	border-radius: 50px;
+	color: #fff;
+}
+
+.list-column-link .item-link:hover{
+	background: #9D6D7B;
+}
+
+.list-column-link .item-link:active{
+	transform: translateY(2px);
+}
+
+.title-link{
+	margin-left: 10px;
+}
